@@ -12,7 +12,7 @@ const Affiliate = () => {
          const { register, handleSubmit , reset} = useForm();
          const onSubmit = data => {
             console.log(data);
-            axios.post('http://localhost:5000/hotel_services' ,data)
+            axios.post('https://dry-refuge-90398.herokuapp.com/hotel_services' ,data)
             .then(res =>{
                 console.log(res);
                 if(res.data.insertedId){

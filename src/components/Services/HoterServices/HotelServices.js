@@ -5,7 +5,7 @@ import './Hotelservice.css';
 const HotelServices = () => {
     const [services , setServices] =useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/hotel_services')
+        fetch('https://dry-refuge-90398.herokuapp.com/hotel_services')
         .then(res => res.json())
         .then(data => setServices(data));
     },[]);

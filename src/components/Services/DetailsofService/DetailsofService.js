@@ -9,7 +9,7 @@ const DetailsofService = () => {
     const {serviceId} = useParams();
     const [details , setDetails] =useState([]);
     useEffect(() => {
-        const url = `http://localhost:5000/hotel_services/${serviceId}`;
+        const url = `https://dry-refuge-90398.herokuapp.com/hotel_services/${serviceId}`;
         fetch(url)
         .then(res => res.json())
         .then(data => setDetails(data))

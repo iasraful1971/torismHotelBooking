@@ -62,7 +62,7 @@ const Footer = () => {
            
         </div>
            <div className="copy">
-           <p>&copy; Copyright  2021 PsycheCare. All Rights Reserved</p>
+           <p>&copy; Copyright  2021 Ora Travel. All Rights Reserved</p>
        </div>
        </>
     );
