@@ -1,0 +1,69 @@
+.banner{
+    background-image: linear-gradient(rgba(57, 50, 141, 0.3), rgba(30, 28, 119, 0.7)), url('../../images//cover.jpeg');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+}
+.banner h1 {
+    font-size: 70px;
+    font-weight: 900;
+    color: #FFFFFF;
+    letter-spacing: 20px;
+}
+.banner h3{
+    color: rgb(221, 208, 213);
+    font-size: 18px;
+    font-weight: bold;
+}
+.book-btn button{
+    padding: 20px 40px;
+    border: none;
+    outline: none;
+   
+    border-radius: 10px;
+    color:rebeccapurple;
+    font-weight: bold;
+    letter-spacing: 10px;
+    margin: 20px 0;
+}
+.book-btn i{
+    padding-right: 10px;
+}
+.book-btn .btn-2{
+    background-color: #147dda;
+    transition: .4s ease-in-out;
+    margin-left: 10px;
+}
+.book-btn .btn-2:hover{
+    background: #FFFFFF;
+}
+.agency-about h4 {
+    font-size: 20px;
+    color: rgb(51, 11, 51);
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    
+}
+.agency-about h5{
+    font-size: 18px;
+    font-weight: 300;
+}
+.agency-about p{
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.adventure{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: rgb(209, 204, 209);
+    background:rgb(51, 11, 51);
+}

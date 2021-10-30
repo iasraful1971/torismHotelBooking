@@ -1,0 +1,50 @@
+.form-container input ,
+.form-container textarea{
+    width: 100%;
+    background-color:rgb(243, 239, 239);
+    background-color: rgb(250, 243, 234);
+    
+}
+.form-container textarea{
+    height: 100px;
+    border: none;
+    border-radius: 10px;
+    padding:20px 10px;
+    outline: none;
+   
+}
+.form-container{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 50px 30px;
+    border-radius: 20px;
+    background:#081229;
+    text-align: center;
+}
+.form-container h2{
+    font-size: 18px;
+    color: rgb(243, 9, 192);
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+.form-container .text-center{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.form-container .text-center input[type='submit']{
+        background-color: rgb(25, 179, 250);
+}
+.form-container input::placeholder{
+    color: rgb(10, 10, 10);
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    text-transform: capitalize;
+}
+.all-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
